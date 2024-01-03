@@ -1,0 +1,14 @@
+h2{
+    color: brown;
+    background-color: bisque;
+    text-align: center;
+}
+#container{
+    color: yellowgreen;
+}
+.accent{
+    background-color: aqua;
+}
+body main div{
+    color: rgb(165, 12, 12);
+}

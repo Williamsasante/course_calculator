@@ -1,0 +1,165 @@
+body{
+    background-image: linear-gradient(#fff, #b3d6fd);
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+nav {
+    background-color: white;
+    border-top: solid 0.3em #000000;
+    border-radius: 1.0em;
+    border-bottom: solid 0.3em #000000;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #000000;
+    padding: 1em;
+    min-width: 12%;
+    margin: .25em;
+    
+}
+
+main {
+    background-color: white;
+
+    border-top: solid 0.3em #000000;
+    border-radius: 1.0em;
+    border-bottom: solid 0.3em #000000;
+    margin-bottom: 1em;
+
+}
+main div .row::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+
+main div .left-column{
+    padding: auto;
+    width: 20%;
+    float: left;
+    border-right: 2px solid #000000;
+
+}
+
+/* table styling  table */
+.schedule table {
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: #fff;
+    
+}
+.schedule caption {
+    border: 0.1em solid #000000;
+    font-size: 1.sem;
+    font-weight: bold;
+
+}
+.schedule th,td {
+    border: 0.1em solid #000000;
+    padding: 0.5sem;
+    text-align: center;
+}
+.schedule th{
+    background-color: #000000;
+    color: white !important;
+}
+
+/* table styling  table */
+
+figure{
+    text-align: center;
+    /* background-color: white; */
+
+}
+figure img{
+    max-width: 800px;
+    max-height: 600px;
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    
+    background-color: white;
+    border-top: solid 0.3em #000000;
+    border-radius: 1.0em;
+    border-bottom: solid 0.3em #000000;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Begin Mobile screen */
+@media screen and (max-width: 640px){
+    nav ul li{
+        border-radius: 1em;
+        
+        
+
+    }
+    .tablet{
+        display: none;
+    }
+
+    .left-column{
+        display: none;
+    }
+    
+}
+/* End Mobile screen */
+
+
+
+/* Begin Tablet screen */
+@media screen and (min-width: 641px){
+    nav ul li{
+        border-radius: 1em;
+        display: inline-block;
+        
+        
+
+    }
+   
+    
+}
+/* End Tablet screen */
+
+/* Begin desktop screen */
+@media screen and (min-width: 961px){
+   
+    header{
+       text-align: left; 
+    }
+    header img{
+        width: auto;
+        height: 5em;
+    }
+
+   nav {
+    float: right;
+    margin-top: -5.9em; 
+    width: 60%;
+   }
+   nav ul li{
+    border-radius: 1em;
+    display: inline-block;
+        
+
+}
+    
+}
+/* End desktop screen */

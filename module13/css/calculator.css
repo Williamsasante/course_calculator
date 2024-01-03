@@ -1,0 +1,30 @@
+table caption input {
+    text-align: right;
+}
+
+table {
+    border: 0.1em solid #ffffff;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: #f98c1f;
+}
+
+table caption {
+    border: 0.1em solid #000000;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #f98c1f;
+}
+th, td {
+    border: 0.1em solid #000000;
+    padding: 0.5em;
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    height: 2em;
+    font-size: 2em;
+}
+
